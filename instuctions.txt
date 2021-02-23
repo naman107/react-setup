@@ -1,0 +1,11 @@
+1. npm init -yes OR npm init -y
+2. create folder src
+3. inside src create index.tsx
+4. outside src create files -> index.html, .babelrc, .webpack.config.js
+5. In index.html add boilerplate code with id and script
+6. Fill index.tsx file (install react and react-dom)
+7. Fill webpack.config.js file // very important
+8. Fill .babelrc
+9. Add "start": "webpack serve --open --hot", "build": "webpack" to package.json
+10. npm i @babel/core @babel/preset-env @babel/preset-react @babel/preset-typescript webpack webpack-cli webpack-dev-server webpack-serve babel-loader @types/react @types/react-dom
+11. npm start
